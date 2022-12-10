@@ -2,15 +2,15 @@
 // Check for empty fields
 $ame = $_POST{'name'};
 $email = $_POST{'email'};
-$message = $_POST['message'];
 $objet = $_POST{'objet'};
+$message = $_POST['message'];
+
 
 
 $email_message = "
 
 Name: ".$name."
 Email: ".$email."
-Telephone: ".$telephone."
 Objet: ".$objet."
 Message: ".$message."
 
